@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EduGuide AI — แนะแนวการศึกษาและอาชีพ</title>
+  <meta name="description" content="แพลตฟอร์ม AI แนะแนวการศึกษาและอาชีพสำหรับนักเรียนไทย พร้อม Dashboard สำหรับครูแนะแนว">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar no-print">
+    <a class="brand" href="#/" aria-label="EduGuide AI หน้าแรก"><span class="logo">E</span> EduGuide <b>AI</b></a>
+    <nav id="nav" aria-label="เมนูหลัก">
+      <a href="#/assess" data-r="assess">ทำแบบประเมิน</a>
+      <a href="#/result" data-r="result">ผลของฉัน</a>
+      <a href="#/chat" data-r="chat">AI Chat</a>
+      <a href="#/teacher" data-r="teacher">สำหรับครู</a>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="foot no-print">EduGuide AI · JUMP THAILAND Hackathon 2026 · คำแนะนำเป็นข้อมูลประกอบการตัดสินใจ ควรปรึกษาครูแนะแนวและตรวจสอบประกาศอย่างเป็นทางการเสมอ</footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/data.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
